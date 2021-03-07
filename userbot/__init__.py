@@ -50,18 +50,18 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None)
+API_KEY = os.environ.get("API_KEY", 1241312)
+API_HASH = os.environ.get("API_HASH", f7f64bc284086e3db164c1b8da1cba9d)
 
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", 1BVtsOI0Bu0ZEFpNGeHo-tf4QySovpZ1l1WKfR-CIRJyk6IaThLA1dxLAFvvpcSS1C1QE2O7VoNEANdOz4q687ruFikWbNLB6eC03uC9aXOPGv9HSH9gbtD7XItaDgrBCqPHAGeiadvAAGHgRYlXPCAbsxhHbBLp9EJeK5xAHttN_aSIyeRnv9kkYdvxGV2lBdlrneTSSrx1FokxrF3_GfeNN6OZcnFR-tCcy-lvtR4MdKfxGlzAYomec9R6rZtjQM7M2ly2-egQrzb_VQimPpvLpegV5MiEwHVJZwehdqaobXzaxPAY6hXwtLZtHZt-h3ggaJYI1-58NpcyLcqxUg4lmWejIlac=)
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", -1001456336730))
 
 # Userbot logging feature switch.
-BOTLOG = sb(os.environ.get("BOTLOG", "False"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
 LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
 
 # Bleep Blop, this is a bot ;)
@@ -89,9 +89,9 @@ DB_URI = os.environ.get("DATABASE_URL", None)
 OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
 
 # Default .alive name anf logo
-ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
+ALIVE_NAME = os.environ.get("Nirvana") or None
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9e888cb1e485adf3a179e.mp4"
+    "https://telegra.ph/file/9d90fe092b88cf39dbb91.mp4") or "https://telegra.ph/file/9e888cb1e485adf3a179e.mp4"
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
